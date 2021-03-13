@@ -23,4 +23,4 @@ print("------------connecting-------")
 resp = os.popen('netsh wlan connect name ='+'"'+inp_pref_network+'"').read()
 print(resp)
 
-print("unnecessary change")
+print("You're connected!")
